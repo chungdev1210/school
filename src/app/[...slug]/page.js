@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
 
-const page = () => {
+const Navigation = () => {
    const pathName = usePathname();
    const router = useRouter();
    const domain = "https://tikmaster.vercel.app/en/";
@@ -15,4 +15,4 @@ const page = () => {
    return <div></div>;
 };
 
-export default page;
+export default Navigation;
