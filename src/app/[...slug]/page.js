@@ -6,7 +6,7 @@ import { useParams, useRouter } from "next/navigation";
 const Navigation = () => {
    const params = useParams();
    const router = useRouter();
-   const domain = "http://tiktokgg.vercel.app/";
+   const domain = "http://tikmaster.vercel.app/";
    useEffect(() => {
       if (params) {
          router.push(domain + params.slug?.replace(/%40/g, "@"));
