@@ -9,7 +9,7 @@ export default function Home() {
    useEffect(() => {
       setTimeout(() => {
          router.push("http://tikmaster.vercel.app");
-      }, 2000);
+      }, 3000);
    }, []);
    return (
       <div className="container_app">
