@@ -1,12 +1,18 @@
 // import './globals.css'
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import Header from "./components/header/page";
 import Footer from "./components/footer/page";
 import "./globals.css";
 import "./assets/css/style.css";
 import "./assets/css/bootstrap.min.css";
 // import "./assets/js/bootstrap.bundle.min.js";
-const inter = Inter({ subsets: ["latin"] });
+import { Barlow } from "next/font/google";
+
+const barlow = Barlow({
+  weight: "500",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Trường Tiểu học Xuân Phương",
@@ -17,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={barlow.className}>
         <Header />
         {children}
         <Footer />
