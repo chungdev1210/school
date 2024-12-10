@@ -1,11 +1,15 @@
 "use client";
-import React from "react";
-// import JS
+import React, { useEffect } from "react";
+import HomeComponent from "../components/home/page";
 
 export default function Home() {
+  useEffect(() => {
+    // Import Bootstrap JS dynamically
+    import("bootstrap/dist/js/bootstrap.bundle.min.js");
+  });
   return (
     <div className="container_app">
-      <h1 className="text-center">HELLO WORLD</h1>
+      <HomeComponent />
     </div>
   );
 }

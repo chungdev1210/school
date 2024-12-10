@@ -1,11 +1,11 @@
 // import './globals.css'
 // import { Inter } from "next/font/google";
-import Header from "./components/header/page";
-import Footer from "./components/footer/page";
+import Header from "../components/header/page";
+import Footer from "../components/footer/page";
 import "./globals.css";
-import "./assets/css/style.css";
-import "./assets/css/bootstrap.min.css";
-// import "./assets/js/bootstrap.bundle.min.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../assets/css/style.css";
+import "../assets/css/style-custom.scss";
 import { Barlow } from "next/font/google";
 
 const barlow = Barlow({

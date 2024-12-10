@@ -5,6 +5,7 @@ import yt from "../../assets/images/youtube.png";
 import email from "../../assets/images/mail.png";
 import rating from "../../assets/images/rating.png";
 import Image from "next/image";
+import Navbar from "../navbar/page";
 
 export default function Header() {
   return (
@@ -12,7 +13,7 @@ export default function Header() {
       <nav className="header-top">
         <div className="container">
           <div className="d-flex justify-content-between align-items-center py-3">
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="#">
               <Image src={logo} alt="logo" height={85} />
             </a>
             <div className="">
@@ -47,9 +48,7 @@ export default function Header() {
         </div>
       </nav>
       <hr className="m-0" />
-      <nav id="primary-header" className="navbar navbar-expand-lg py-3">
-        <span className="fw-bolder text-uppercase">TRANG CHỦ</span>
-      </nav>
+      <Navbar />
     </header>
   );
 }

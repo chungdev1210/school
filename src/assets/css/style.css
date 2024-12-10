@@ -213,7 +213,7 @@ h4,
 h5,
 h6 {
   color: var(--dark-color);
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
   text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 0.84px;
@@ -373,7 +373,7 @@ h6 {
   text-transform: uppercase;
   font-weight: 500;
   color: var(--dark-color);
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
 }
 
 .dropdown-item.active,
@@ -482,11 +482,11 @@ a.nav-link {
   text-transform: capitalize;
   font-weight: 500;
   color: var(--dark-color);
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
   transition: all 0.3s ease-in-out;
 }
 
-a.nav-link::after {
+/* a.nav-link::after {
   content: "";
   text-align: center;
   display: block;
@@ -494,14 +494,14 @@ a.nav-link::after {
   height: 2px;
   background: var(--primary-color);
   transition: width 0.9s;
-}
+} */
 
-a.nav-link.active::after,
+/* a.nav-link.active::after,
 a.nav-link:focus::after,
 a.nav-link:hover::after {
   width: 100%;
   transition: width 0.9s;
-}
+} */
 
 #primary-header .dropdown .search::after {
   content: none;

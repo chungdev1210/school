@@ -1,0 +1,126 @@
+#primary-header {
+    background: #373481;
+    padding: 0;
+    .header-bottom {
+        .navbar-nav {
+            .nav-item {
+                &.active {
+                    background: #DA251C !important;
+                }
+                .nav-link {
+                    color: #fff;
+                }
+                .dropdown-menu {
+                    .dropdown-item {
+                        color: #000;
+                        text-transform: capitalize;
+                        &:hover {
+                            color: #DA251C;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#billboard {
+    .banner-img {
+        object-fit: cover;
+    }
+}
+
+#about-us {
+    .btn-slide {
+        padding: 12px 24px;
+    }
+}
+
+#news {
+    .list-notification {
+        list-style-type: none;
+        padding: 0;
+        .notification-item {
+            padding: 12px 20px;
+            border-radius: 3px;
+            border: 1px solid #eee;
+            margin-bottom: 12px;
+            &:hover {
+                background: #F5F5F5;
+            } 
+            a {
+                font-size: 16px;
+                &:hover {
+                    color: #DA251C;
+                }
+            }
+        }
+    }
+    .albums {
+        .album-item {
+            width: 206px;
+            padding: 12px;
+            border: 1px solid #eee;
+            
+            &:hover {
+                border: 1px solid #DA251C;
+                cursor: pointer;
+                img {
+                    transform: scale(1.1);
+                }
+            }
+            img {
+                width: 100%;
+                object-fit: contain;
+                height: auto;
+                transition: transform 0.3s ease-in-out;
+            }
+        }
+    }
+}
+
+#events {
+    .event-item {
+        position: relative;
+        .event-img {
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+        }
+        .event-content {
+            position: absolute;
+            bottom: 0px;
+            background: linear-gradient(180deg, rgba(0, 154, 216, 0) 0%, #373481 100%);
+            border-radius: 8px;
+            width: 100%;
+            padding: 16px;
+            p {
+                font-size: 18px;
+                color: #fff;
+                // text-align: justify;
+                text-transform: uppercase;
+                margin-bottom: 4px;
+                line-height: 24px;
+                &:hover {
+                    a {
+                        color: #fff !important;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .btn-custom {
+                padding: 4px 16px;
+                border-radius: 4px;
+                
+            } 
+        }
+    }
+}
+#footer {
+    color: #373481;
+    .title-footer {
+        color: #373481;
+    }
+}
