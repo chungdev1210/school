@@ -10,7 +10,7 @@ export default function News() {
     <section id="page-news">
       <div className="container py-5">
         <div className="row">
-          <h3 className="mb-4">Tin tức</h3>
+          <h3 className="mb-4">Tài liệu</h3>
           <div className="col-md-9">
             <div className="new-item mb-5">
               <div className="d-flex gap-3">

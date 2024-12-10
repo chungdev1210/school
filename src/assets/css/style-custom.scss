@@ -79,7 +79,8 @@
     }
 }
 
-#events {
+#events,
+#page-albums {
     .event-item {
         position: relative;
         .event-img {
@@ -122,5 +123,38 @@
     color: #373481;
     .title-footer {
         color: #373481;
+    }
+}
+
+.btn-custom {
+    padding: 4px 16px;
+    border-radius: 4px;
+    
+}
+
+#page-news {
+    .new-item {
+        .image-item {
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+        }
+        .new-content {
+            width: 75%;
+            .new-desc {
+                p {
+                    font-size: 18px;
+                    display: -webkit-box;        /* Tạo khối flex dạng box */
+                    -webkit-line-clamp: 4;      /* Giới hạn 3 dòng */
+                    -webkit-box-orient: vertical; /* Đặt hướng của box là dọc */
+                    overflow: hidden;           /* Ẩn phần vượt quá */
+                    text-overflow: ellipsis;    /* Thêm dấu "..." */
+                    text-align: justify;
+                }
+            }
+        }
     }
 }

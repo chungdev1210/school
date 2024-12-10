@@ -1,7 +1,15 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+  const pathname = usePathname();
+  const [pathUrl, setPathUrl] = useState();
+  useEffect(() => {
+    const lastSegment = pathname.split("/").filter(Boolean).pop();
+    setPathUrl(lastSegment);
+  });
   return (
     <nav id="primary-header" className="navbar navbar-expand-lg">
       <div className="container justify-content-end">
@@ -33,7 +41,11 @@ export default function Navbar() {
           </div>
           <div className="offcanvas-body align-items-center justify-content-center">
             <ul className="navbar-nav mb-2 mb-lg-0">
-              <li className="nav-item px-3 py-3 active">
+              <li
+                className={`nav-item px-3 py-3 ${
+                  pathUrl == undefined ? "active" : null
+                }`}
+              >
                 <Link className="nav-link p-0" href={"/"}>
                   TRANG CHỦ
                 </Link>
@@ -104,30 +116,50 @@ export default function Navbar() {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item px-3 py-3">
+              <li
+                className={`nav-item px-3 py-3 ${
+                  pathUrl == "news" ? "active" : null
+                }`}
+              >
                 <Link className="nav-link p-0" href={"/news"}>
                   TIN TỨC
                 </Link>
               </li>
-              <li className="nav-item px-3 py-3">
-                <a className="nav-link p-0" href="#">
+              <li
+                className={`nav-item px-3 py-3 ${
+                  pathUrl == "notifications" ? "active" : null
+                }`}
+              >
+                <Link className="nav-link p-0" href={"/notifications"}>
                   THÔNG BÁO
-                </a>
+                </Link>
               </li>
-              <li className="nav-item px-3 py-3">
-                <a className="nav-link p-0" href="#">
+              <li
+                className={`nav-item px-3 py-3 ${
+                  pathUrl == "albums" ? "active" : null
+                }`}
+              >
+                <Link className="nav-link p-0" href={"/albums"}>
                   THƯ VIỆN ẢNH
-                </a>
+                </Link>
               </li>
-              <li className="nav-item px-3 py-3">
-                <a className="nav-link p-0" href="#">
+              <li
+                className={`nav-item px-3 py-3 ${
+                  pathUrl == "documents" ? "active" : null
+                }`}
+              >
+                <Link className="nav-link p-0" href={"/documents"}>
                   TÀI LIỆU
-                </a>
+                </Link>
               </li>
-              <li className="nav-item px-3 py-3">
-                <a className="nav-link p-0" href="#">
+              <li
+                className={`nav-item px-3 py-3 ${
+                  pathUrl == "contacts" ? "active" : null
+                }`}
+              >
+                <Link className="nav-link p-0" href={"/contacts"}>
                   LIÊN HỆ
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
