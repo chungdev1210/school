@@ -50,7 +50,11 @@ export default function Navbar() {
                   TRANG CHỦ
                 </Link>
               </li>
-              <li className="nav-item px-3 py-3 dropdown">
+              <li
+                className={`nav-item px-3 py-3 dropdown ${
+                  pathUrl == "introduce" ? "active" : null
+                }`}
+              >
                 <a
                   className="nav-link p-0 dropdown-toggle"
                   data-bs-toggle="dropdown"
@@ -62,19 +66,14 @@ export default function Navbar() {
                 </a>
                 <ul className="dropdown-menu dropdown-menu-end animate slide shadow">
                   <li>
-                    <a href="#" className="dropdown-item">
-                      Giới thiệu chung
-                    </a>
+                    <Link className="dropdown-item" href={"/introduce"}>
+                      GIỚI THIỆU CHUNG
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="dropdown-item">
-                      Ban Giám Hiệu nhà trường
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="dropdown-item">
-                      Cơ sở vật chất
-                    </a>
+                    <Link className="dropdown-item" href={"/introduce"}>
+                      BAN GIÁM HIỆU HÀ TRƯỜNG
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -91,27 +90,27 @@ export default function Navbar() {
                 <ul className="dropdown-menu dropdown-menu-end animate slide border shadow">
                   <li>
                     <a href="#" className="dropdown-item">
-                      Khối 1
+                      KHỐI 1
                     </a>
                   </li>
                   <li>
                     <a href="#" className="dropdown-item">
-                      Khối 2
+                      KHỐI 2
                     </a>
                   </li>
                   <li>
                     <a href="#" className="dropdown-item">
-                      Khối 3
+                      KHỐI 3
                     </a>
                   </li>
                   <li>
                     <a href="#" className="dropdown-item">
-                      Khối 4
+                      KHỐI 4
                     </a>
                   </li>
                   <li>
                     <a href="#" className="dropdown-item">
-                      Khối 5
+                      KHỐI 5
                     </a>
                   </li>
                 </ul>

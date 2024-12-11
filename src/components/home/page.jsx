@@ -11,6 +11,7 @@ import img6 from "../../assets/images/img6.jpg";
 import img7 from "../../assets/images/img7.jpg";
 import img8 from "../../assets/images/img8.jpg";
 import img9 from "../../assets/images/img9.jpg";
+import Link from "next/link";
 
 export default function HomeComponent() {
   const news = [
@@ -82,12 +83,12 @@ export default function HomeComponent() {
                 hoạt động ngoại khóa, trải nghiệm sáng tạo nhằm nâng cao chất
                 lượng giáo dục cho học sinh.
               </p>
-              <a
-                href="index.html"
+              <Link
                 className="btn btn-primary btn-slide hover-slide-right mt-4"
+                href={"/introduce"}
               >
                 <span>XEM THÊM</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -103,10 +104,12 @@ export default function HomeComponent() {
                 {news.map((newsItem) => {
                   return (
                     <li key={newsItem.id} className="notification-item">
-                      <Image src={megaphone} alt="" width={25} />
-                      <a href="#" className="text-uppercase ms-3">
-                        {newsItem.title}
-                      </a>
+                      <Link href={"/post"}>
+                        <Image src={megaphone} alt="" width={25} />
+                        <span className="text-uppercase ms-3">
+                          {newsItem.title}
+                        </span>
+                      </Link>
                     </li>
                   );
                 })}
@@ -174,7 +177,7 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    XEM THÊM
+                    <Link href={"/post"}>XEM THÊM</Link>
                   </button>
                 </div>
               </div>
@@ -194,7 +197,7 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    XEM THÊM
+                    <Link href={"/post"}>XEM THÊM</Link>
                   </button>
                 </div>
               </div>
@@ -212,7 +215,7 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    XEM THÊM
+                    <Link href={"/post"}>XEM THÊM</Link>
                   </button>
                 </div>
               </div>
@@ -230,7 +233,7 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    XEM THÊM
+                    <Link href={"/post"}>XEM THÊM</Link>
                   </button>
                 </div>
               </div>
@@ -248,7 +251,7 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    XEM THÊM
+                    <Link href={"/post"}>XEM THÊM</Link>
                   </button>
                 </div>
               </div>
@@ -268,7 +271,7 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    XEM THÊM
+                    <Link href={"/post"}>XEM THÊM</Link>
                   </button>
                 </div>
               </div>
