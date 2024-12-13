@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.xuanphuongvn.edu.vn/$1",
+      "permanent": true
+    }
+  ]
+}
