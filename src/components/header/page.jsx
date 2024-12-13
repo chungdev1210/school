@@ -21,7 +21,7 @@ export default function Header() {
                 <li className="phone fw-medium text-capitalize d-flex align-items-center pe-3 border-end text-danger">
                   Hotline: 0988 995 259
                 </li>
-                <li className="time text-black fw-medium text-capitalize d-flex align-items-center ms-3">
+                {/* <li className="time text-black fw-medium text-capitalize d-flex align-items-center ms-3">
                   <a
                     href="https://www.facebook.com/TieuhocXuanPhuong/"
                     target="_blank"
@@ -31,7 +31,7 @@ export default function Header() {
                   <a href="https://tieuhocxuanphuong.edu.vn/" target="_blank">
                     <Image src={yt} alt="logo" width={20} />
                   </a>
-                </li>
+                </li> */}
               </ul>
               <ul className="info d-flex flex-wrap justify-content-end align-items-center list-unstyled m-0 pt-2">
                 <li className="phone fw-medium text-capitalize d-flex align-items-center pe-3 me-3 border-end text-black">

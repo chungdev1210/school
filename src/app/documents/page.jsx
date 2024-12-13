@@ -19,7 +19,7 @@ export default function News() {
                 </div>
                 <div className="new-content">
                   <div className="content-title">
-                    <h4>HÂN HOAN CHÀO ĐÓN NGÀY NHÀ GIÁO VIỆT NAM 20/11</h4>
+                    <h4>TỔ CHỨC CHUYÊN ĐỀ CẤP QUẬN MÔN TIẾNG VIỆT LỚP 5</h4>
                   </div>
                   <div className="new-desc">
                     <p>
@@ -42,7 +42,7 @@ export default function News() {
                 </div>
                 <div className="new-content">
                   <div className="content-title">
-                    <h4>TUYỂN SINH TRỰC TUYẾN NĂM HỌC 2024-2025</h4>
+                    <h4>THAM QUAN TRUY XUẤT NGUỒN GỐC THỰC PHẨM</h4>
                   </div>
                   <div className="new-desc">
                     <p>
@@ -65,7 +65,10 @@ export default function News() {
                 </div>
                 <div className="new-content">
                   <div className="content-title">
-                    <h4>LỄ BẾ GIẢNG NĂM HỌC 2023-2024</h4>
+                    <h4>
+                      LỄ RA TRƯỜNG VÀ CHIA TAY HỌC SINH LỚP 5 – NĂM HỌC
+                      2023-2024
+                    </h4>
                   </div>
                   <div className="new-desc">
                     <p>

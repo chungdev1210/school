@@ -104,7 +104,7 @@ export default function HomeComponent() {
                 {news.map((newsItem) => {
                   return (
                     <li key={newsItem.id} className="notification-item">
-                      <Link href={"/post"}>
+                      <Link href={`/notifications/${newsItem.id}`}>
                         <Image src={megaphone} alt="" width={25} />
                         <span className="text-uppercase ms-3">
                           {newsItem.title}
@@ -177,7 +177,9 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    <Link href={"/post"}>XEM THÊM</Link>
+                    <Link href={"/post/chao-mung-ngay-nha-giao-viet-nam-1"}>
+                      XEM THÊM
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -197,7 +199,11 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    <Link href={"/post"}>XEM THÊM</Link>
+                    <Link
+                      href={"/post/to-chuc-chuyen-de-cap-quan-mon-tieng-viet-2"}
+                    >
+                      XEM THÊM
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -215,7 +221,11 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    <Link href={"/post"}>XEM THÊM</Link>
+                    <Link
+                      href={"/post/tham-quan-truy-xuat-nguon-goc-thuc-pham-3"}
+                    >
+                      XEM THÊM
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -233,7 +243,7 @@ export default function HomeComponent() {
                     className="btn btn-danger btn-sm btn-custom"
                     type="button"
                   >
-                    <Link href={"/post"}>XEM THÊM</Link>
+                    <Link href={"/post/trung-thu-se-chia-4"}>XEM THÊM</Link>
                   </button>
                 </div>
               </div>

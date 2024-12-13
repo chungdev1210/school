@@ -43,7 +43,7 @@ export default function Contacts() {
               </div>
               <div className="d-flex align-items-center">
                 <Image src={mail} alt="" width={20} />
-                <span className="ms-2"> c1xuanphuong-ntl@hanoiedu.vn</span>
+                <span className="ms-2"> phieuphieux@gmail.com</span>
               </div>
             </div>
           </div>

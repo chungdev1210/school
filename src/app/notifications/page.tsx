@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Notifications() {
@@ -21,7 +22,7 @@ export default function Notifications() {
                 <td>26/08/2024</td>
                 <td>
                   <button className="btn btn-danger btn-custom" type="button">
-                    Chi tiết
+                    <Link href={"/notifications/1"}>Chi tiết</Link>
                   </button>
                 </td>
               </tr>
@@ -33,7 +34,7 @@ export default function Notifications() {
                 <td>30/07/2024</td>
                 <td>
                   <button className="btn btn-danger btn-custom" type="button">
-                    Chi tiết
+                    <Link href={"/notifications/2"}>Chi tiết</Link>
                   </button>
                 </td>
               </tr>
@@ -43,7 +44,7 @@ export default function Notifications() {
                 <td>01/07/2024</td>
                 <td>
                   <button className="btn btn-danger btn-custom" type="button">
-                    Chi tiết
+                    <Link href={"/notifications/3"}>Chi tiết</Link>
                   </button>
                 </td>
               </tr>
@@ -53,7 +54,7 @@ export default function Notifications() {
                 <td> 07/06/2024</td>
                 <td>
                   <button className="btn btn-danger btn-custom" type="button">
-                    Chi tiết
+                    <Link href={"/notifications/4"}>Chi tiết</Link>
                   </button>
                 </td>
               </tr>
@@ -65,7 +66,7 @@ export default function Notifications() {
                 <td>29/05/2024</td>
                 <td>
                   <button className="btn btn-danger btn-custom" type="button">
-                    Chi tiết
+                    <Link href={"/notifications/5"}>Chi tiết</Link>
                   </button>
                 </td>
               </tr>
@@ -75,7 +76,7 @@ export default function Notifications() {
                 <td>22/05/2024</td>
                 <td>
                   <button className="btn btn-danger btn-custom" type="button">
-                    Chi tiết
+                    <Link href={"/notifications/6"}>Chi tiết</Link>
                   </button>
                 </td>
               </tr>
