@@ -19,7 +19,7 @@ import anh23 from "../../../assets/images/anh23.jpg";
 import anh24 from "../../../assets/images/anh24.jpg";
 import Image from "next/image";
 
-export default function page() {
+export default function PageNoti() {
   const { slug } = useParams();
   const id = slug.charAt(slug.length - 1);
   return (
