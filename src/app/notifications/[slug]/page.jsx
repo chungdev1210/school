@@ -51,8 +51,8 @@ export default function PageNoti() {
               sinh. Bỡ ngỡ, hồi hộp và lo lắng, đó chính là cảm xúc chung của
               các em học sinh lớp 1 trường Tiểu học Xuân Phương khi lần đầu tiên
               đến với ngôi trường mới – nơi khởi đầu cho hành trình học tập của
-              mình, khởi đầu cho hành trình “Phát triển năng lực – Kiến tạo
-              tương lai”.
+              mình, khởi đầu cho hành trình&quot;Phát triển năng lực – Kiến tạo
+              tương lai&quot;.
             </p>
             <Image
               src={anh9}
