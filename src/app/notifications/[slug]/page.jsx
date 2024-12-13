@@ -242,9 +242,9 @@ export default function PageNoti() {
               thiết đối với các bé 6 tuổi. Để trẻ hào hứng, phấn khởi và khơi
               dậy mong muốn được học tập dưới mái trường Tiểu học, sáng nay,
               ngày 22/5/2024, trường Tiểu học Xuân Phương kết hợp với trường Mầm
-              non Xuân Phương tưng bừng tổ chức “Chương trình giao lưu trải
-              nghiệm – Em là học sinh lớp 1” để đón chào các bạn học sinh lớp
-              Mẫu giáo lớn đến từ trường Mầm non Xuân Phương.
+              non Xuân Phương tưng bừng tổ chức &quot;Chương trình giao lưu trải
+              nghiệm – Em là học sinh lớp 1&quot; để đón chào các bạn học sinh
+              lớp Mẫu giáo lớn đến từ trường Mầm non Xuân Phương.
             </p>
             <Image
               src={anh21}
