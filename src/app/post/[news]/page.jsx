@@ -222,13 +222,13 @@ export default function Post() {
             </p>
             <p className="mb-4">
               Ban Giám hiệu trường Tiểu học Xuân Phương cũng quyết định dừng tổ
-              chức chương trình “Vui Trung thu” cho học sinh toàn trường vào
-              ngày 16/9 như kế hoạch đã đề ra trước đó. Toàn bộ kinh phí tổ chức
-              chương trình và kinh phí các lớp ủng hộ đã được gửi đến người dân
-              đang bị ảnh hưởng bởi lũ lụt thông qua Ủy ban Mặt trận Tổ quốc
-              Việt Nam quận Nam Từ Liêm (Tính đến hết ngày 17/9/2024, tập thể
-              CBGV_NV, Phụ huynh và các em học sinh trong toàn trường ủng hộ
-              100.115.000 đồng).
+              chức chương trình &quot;Vui Trung thu&quot; cho học sinh toàn
+              trường vào ngày 16/9 như kế hoạch đã đề ra trước đó. Toàn bộ kinh
+              phí tổ chức chương trình và kinh phí các lớp ủng hộ đã được gửi
+              đến người dân đang bị ảnh hưởng bởi lũ lụt thông qua Ủy ban Mặt
+              trận Tổ quốc Việt Nam quận Nam Từ Liêm (Tính đến hết ngày
+              17/9/2024, tập thể CBGV_NV, Phụ huynh và các em học sinh trong
+              toàn trường ủng hộ 100.115.000 đồng).
             </p>
             <p className="mb-4">
               Tại các lớp học, Các thầy cô giáo và BPH đã tổ chức những hoạt

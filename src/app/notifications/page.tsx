@@ -72,7 +72,7 @@ export default function Notifications() {
               </tr>
               <tr>
                 <th scope="row">6</th>
-                <td>GIAO LƯU-TRẢI NGHIỆM “EM LÀM HỌC SINH LỚP 1</td>
+                <td>GIAO LƯU-TRẢI NGHIỆM &quot;EM LÀM HỌC SINH LỚP 1</td>
                 <td>22/05/2024</td>
                 <td>
                   <button className="btn btn-danger btn-custom" type="button">

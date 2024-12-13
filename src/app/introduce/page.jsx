@@ -37,8 +37,8 @@ export default function Introduce() {
             <li>
               Giúp học sinh định hướng, khám phá và phát triển tối đa năng lực
               của bản thân, tự lực giải quyết những vấn đề trong học tập và cuộc
-              sống theo đúng phương châm: “Phát triển năng lực, Kiến tạo tương
-              lai”.
+              sống theo đúng phương châm: &quot;Phát triển năng lực, Kiến tạo
+              tương lai&quot;.
             </li>
             <li>
               Rèn luyện cho học sinh có khả năng làm việc theo nhóm, năng lực
