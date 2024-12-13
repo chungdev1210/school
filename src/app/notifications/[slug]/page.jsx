@@ -235,7 +235,7 @@ export default function PageNoti() {
         {id == "6" && (
           <div className="row">
             <h3 className="mb-3 text-danger">
-              GIAO LƯU-TRẢI NGHIỆM “EM LÀM HỌC SINH LỚP 1”
+              GIAO LƯU-TRẢI NGHIỆM &quot;EM LÀM HỌC SINH LỚP 1&quot;
             </h3>
             <p className="mb-4">
               Chuẩn bị tâm thế cho trẻ vào lớp 1 là việc làm quan trọng và cần
