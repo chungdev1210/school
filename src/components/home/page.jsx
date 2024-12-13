@@ -37,7 +37,7 @@ export default function HomeComponent() {
     },
     {
       id: 6,
-      title: "GIAO LƯU-TRẢI NGHIỆM &quot;EM LÀM HỌC SINH LỚP 1",
+      title: "GIAO LƯU-TRẢI NGHIỆM EM LÀM HỌC SINH LỚP 1",
     },
   ];
   return (
