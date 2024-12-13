@@ -42,10 +42,10 @@ export default function PageNoti() {
             <h3 className="mb-3 text-danger">
               HÂN HOAN CHÀO ĐÓN CÁC CON HỌC SINH LỚP 1 NĂM HỌC 2024-2025
             </h3>
-            <i>" Ngày đầu như thế đó</i> <br />
+            <i>&quot; Ngày đầu như thế đó</i> <br />
             <i>Cô giáo như mẹ hiền</i> <br />
             <i>Em bây giờ cứ ngỡ</i> <br />
-            <i>Cô giáo là cô tiên. "</i>
+            <i>Cô giáo là cô tiên. &quot;</i>
             <p className="mb-4">
               Ấn tượng về ngày đầu đi học thật khó phai trong kí ức của mỗi học
               sinh. Bỡ ngỡ, hồi hộp và lo lắng, đó chính là cảm xúc chung của
